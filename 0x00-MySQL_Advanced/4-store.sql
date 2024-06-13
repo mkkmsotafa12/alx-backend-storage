@@ -1,4 +1,4 @@
--- script that creates a trigger that decreases the quantity of an item after adding a new order.
+-- A SQL script that creates a trigger that decreases the quantity of an item after adding a new order.
 DELIMITER |
 CREATE TRIGGER QUA
 AFTER INSERT
