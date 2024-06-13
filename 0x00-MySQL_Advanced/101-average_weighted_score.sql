@@ -5,6 +5,7 @@ delimiter $$
 DROP PROCEDURE IF EXISTS ComputeAverageWeightedScoreForUsers;
 CREATE PROCEDURE ComputeAverageWeightedScoreForUsers()
 BEGIN
+-- Update the users table with the computed average weighted scores
  UPDATE users AS u
     JOIN (
         -- Subquery to calculate the weighted average score for each user
