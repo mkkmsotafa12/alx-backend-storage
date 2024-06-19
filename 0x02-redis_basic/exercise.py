@@ -71,7 +71,7 @@ class Cache:
                                                                     int,
                                                                     float]:
         """
-            get stored value
+            Get stored value
             Args:
                 key: key for value stored to retrieve
                 fn: callable of a function
