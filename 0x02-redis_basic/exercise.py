@@ -73,8 +73,8 @@ class Cache:
         """
             Get stored value
             Args:
-                key: key for value stored to retrieve
-                fn: callable of a function
+                Key: key for value stored to retrieve
+                Fn: callable of a function
             Return - data stored
         """
         value = self._redis.get(key)
