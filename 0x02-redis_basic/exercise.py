@@ -83,7 +83,7 @@ class Cache:
         return value
 
     def get_str(self, key: str) -> str:
-        """ parametrize Cache.get with string conversion """
+        """ Parametrize Cache.get with string conversion """
         return self.get(key, lambda val: val.decode('utf-8'))
 
     def get_int(self, key: str) -> int:
